@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("./sky.webp");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+a {
+    padding: 20px;
+    margin: 25px 3px;
+    text-decoration: none;
+    float: right;
+    font-size: larger;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+.profile__pic {
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.profile__pic:hover {
+    border: 2px ridge rgba(255, 105, 143, 0.3)
+}
+
+.navbar {
+    position: scroll;
+}    
+
+.main {
+    margin-top: 200px;
+}
+
+.main__heading {
+    text-align: center;
+    font-size: 300%;
+}
+
+.list__heading {
+    margin-top: 100px;
+}
+
+.description {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 400;
+}
+
+.gif {
+    border-radius: 50%;
+    margin: 100px;
+}
+
+#sub {
+    display: flex;
+    text-align: center;
+    padding: 25px;
+    margin-top: 250px;
+    max-width: 70rem;
+}
+
+.gif__description {
+    margin-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 0px 5rem;
+}
+
+#sub2>img {
+    border-radius: 50%;
+    padding:70px;
+}
+
+.skills {
+    text-align: center;
+    font-weight: bolder;
+    margin-top:150px;
+}
+
+#achievement {
+    padding:10px;
+    margin: 15px 0px 150px 20px;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+
+.achieve__gif {
+    border-radius: 30%;
+    margin-right: 150px;
+}
+
+.achieve__gif:hover {
+    border-radius: 50%;
+}
