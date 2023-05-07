@@ -40,6 +40,12 @@ a:hover {
 
 .main {
     margin-top: 200px;
+    text-shadow: 2px 2px 5px black;
+    color: #ffffff;
+}
+
+.main:hover {
+    text-shadow: 5px 5px 7px black;
 }
 
 .main__heading {
